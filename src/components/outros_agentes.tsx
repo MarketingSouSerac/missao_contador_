@@ -470,6 +470,7 @@ export function OutrosAgentes() {
                 <Box
                   as="img"
                   src="assets/images/secret_agent.jpeg"
+                  borderRadius={"4px"}
                   w={["100%", "100%", "150px", "150px", "150px", "15vw"]}
                 />
                 <Text fontFamily={"JosefinBold"} fontSize="25px" mt="5px">
@@ -500,6 +501,7 @@ export function OutrosAgentes() {
               >
                 <Box
                   as="img"
+                  borderRadius={"4px"}
                   src="assets/images/secret_agent.jpeg"
                   w={["100%", "100%", "150px", "150px", "150px", "15vw"]}
                 />
@@ -531,6 +533,7 @@ export function OutrosAgentes() {
               >
                 <Box
                   as="img"
+                  borderRadius={"4px"}
                   src="assets/images/secret_agent.jpeg"
                   w={["100%", "100%", "150px", "150px", "150px", "15vw"]}
                 />
@@ -563,6 +566,7 @@ export function OutrosAgentes() {
               >
                 <Box
                   as="img"
+                  borderRadius={"4px"}
                   src="assets/images/secret_agent.jpeg"
                   w={["100%", "100%", "150px", "150px", "150px", "15vw"]}
                 />
@@ -595,6 +599,7 @@ export function OutrosAgentes() {
               >
                 <Box
                   as="img"
+                  borderRadius={"4px"}
                   src="assets/images/secret_agent.jpeg"
                   w={["100%", "100%", "150px", "150px", "150px", "15vw"]}
                 />
