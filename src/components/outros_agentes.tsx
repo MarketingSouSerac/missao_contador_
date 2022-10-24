@@ -458,147 +458,6 @@ export function OutrosAgentes() {
             backgroundColor="rgb(0 , 0, 0, 0.8)"
             textAlign={["center", "center", "center"]}
           >
-            <Box
-              display={"flex"}
-              flexDirection="column"
-              justifyContent={"center"}
-              justifyItems="center"
-              alignContent={"center"}
-              alignItems="center"
-            >
-              <Box display={"flex"} flexDirection="column" mr="10px">
-                <Box
-                  src="assets/images/agente1.JPG"
-                  as="img"
-                  // src="assets/images/agente1.JPG"
-                  w={["100%", "100%", "150px", "150px", "150px", "13vw"]}
-                />
-                <Text fontFamily={"JosefinBold"} fontSize="25px" mt="5px">
-                  Rogério Fameli
-                </Text>
-              </Box>
-              <Text fontSize="23px" lineHeight={"30px"}>
-                CEO do ABS Group
-              </Text>
-            </Box>
-          </Box>
-
-          <Box
-            marginLeft={"20px"}
-            marginRight={"20px"}
-            display={"flex"}
-            flexDirection="column"
-            color={"white"}
-            padding={"10px"}
-            borderRadius="5px"
-            backgroundColor="rgb(0 , 0, 0, 0.8)"
-            textAlign={["center", "center", "center"]}
-          >
-            <Box>
-              <Box
-                display={"flex"}
-                flexDirection="column"
-                justifyContent={"center"}
-                justifyItems="center"
-                alignContent={"center"}
-                alignItems="center"
-              >
-                <Box
-                  as="img"
-                  src="assets/images/agente2.png"
-                  w={["100%", "100%", "150px", "150px", "150px", "14vw"]}
-                />
-                <Text fontFamily={"JosefinBold"} fontSize="25px" mt="5px">
-                  Altair Alves
-                </Text>
-              </Box>
-              <Text fontSize="23px" lineHeight={"30px"} maxW="100%">
-                {" "}
-                CEO da Soluzione Contábil
-              </Text>
-            </Box>
-          </Box>
-          <Box
-            marginLeft={"20px"}
-            marginRight={"20px"}
-            display={"flex"}
-            flexDirection="column"
-            color={"white"}
-            padding={"10px"}
-            borderRadius="5px"
-            backgroundColor="rgb(0 , 0, 0, 0.8)"
-            textAlign={["center", "center", "center"]}
-          >
-            <Box>
-              <Box
-                display={"flex"}
-                flexDirection="column"
-                justifyContent={"center"}
-                justifyItems="center"
-                alignContent={"center"}
-                alignItems="center"
-              >
-                <Box
-                  as="img"
-                  src="assets/images/agente3.JPG"
-                  w={["100%", "100%", "150px", "150px", "150px", "13.5vw"]}
-                />
-                <Text fontFamily={"JosefinBold"} fontSize="25px" mt="5px">
-                  Pedro Nery
-                </Text>
-              </Box>
-              <Text fontSize="23px" lineHeight={"30px"} maxW="100%">
-                {" "}
-                CEO da Contabilidade.net
-              </Text>
-            </Box>
-          </Box>
-          <Box
-            marginLeft={"20px"}
-            marginRight={"20px"}
-            display={"flex"}
-            flexDirection="column"
-            color={"white"}
-            padding={"10px"}
-            borderRadius="5px"
-            backgroundColor="rgb(0 , 0, 0, 0.8)"
-            textAlign={["center", "center", "center"]}
-          >
-            <Box>
-              <Box
-                display={"flex"}
-                flexDirection="column"
-                justifyContent={"center"}
-                justifyItems="center"
-                alignContent={"center"}
-                alignItems="center"
-              >
-                <Box
-                  as="img"
-                  src="assets/images/agente4.jpeg"
-                  w={["100%", "100%", "150px", "150px", "150px", "15vw"]}
-                />
-                <Text fontFamily={"JosefinBold"} fontSize="25px" mt="5px">
-                  Leandro Bueno
-                </Text>
-              </Box>
-              <Text fontSize="23px" lineHeight={"30px"} maxW="100%">
-                {" "}
-                CEO da SÃO LUCAS ASSESSORIA CONTÁBIL
-              </Text>
-            </Box>
-          </Box>
-          <Box
-            marginLeft={"20px"}
-            marginRight={"20px"}
-            display={"flex"}
-            flexDirection="column"
-            color={"white"}
-            padding={"10px"}
-            borderRadius="5px"
-            backgroundColor="rgb(0 , 0, 0, 0.8)"
-            textAlign={["center", "center", "center"]}
-          >
             <Box>
               <Box
                 display={"flex"}
@@ -611,7 +470,7 @@ export function OutrosAgentes() {
                 <Box
                   as="img"
                   src="assets/images/secret_agent.jpeg"
-                  w={["100%", "100%", "150px", "150px", "150px", "14vw"]}
+                  w={["100%", "100%", "150px", "150px", "150px", "15vw"]}
                 />
                 <Text fontFamily={"JosefinBold"} fontSize="25px" mt="5px">
                 AGENTE CONFIDENCIAL
@@ -642,7 +501,7 @@ export function OutrosAgentes() {
                 <Box
                   as="img"
                   src="assets/images/secret_agent.jpeg"
-                  w={["100%", "100%", "150px", "150px", "150px", "17vw"]}
+                  w={["100%", "100%", "150px", "150px", "150px", "15vw"]}
                 />
                 <Text fontFamily={"JosefinBold"} fontSize="25px" mt="5px">
                 AGENTE CONFIDENCIAL
@@ -737,7 +596,7 @@ export function OutrosAgentes() {
                 <Box
                   as="img"
                   src="assets/images/secret_agent.jpeg"
-                  w={["100%", "100%", "150px", "150px", "150px", "13vw"]}
+                  w={["100%", "100%", "150px", "150px", "150px", "15vw"]}
                 />
                 <Text fontFamily={"JosefinBold"} fontSize="25px" mt="5px">
                 AGENTE CONFIDENCIAL
