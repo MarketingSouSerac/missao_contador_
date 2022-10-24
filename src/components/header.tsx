@@ -171,29 +171,11 @@ export function Header() {
                   ]}
                   lineHeight={["40px", "40px", "40px", "40px", "35px", "2.2vw"]}
                 >
-                  06, 07 e 08/10 <br /> São Paulo - SP
+                  19 e 20/05 <br /> São Paulo - SP
                 </Text>
-                <Text textAlign={["center", "center", "center", "left"]}>
-                  <Box as="span"> Local do evento:</Box>
-                  <br />
-                  Espaço APAS
-                  <br />
-                  R. Pio XI, 1200 - Alto da Lapa,
-                  <br />
-                  CEP: 05060-001
-                </Text>
-                <Text
-                  fontSize={[
-                    "1.5rem",
-                    "1.5rem",
-                    "1.5rem",
-                    "1.5rem",
-                    "1.5rem",
-                    "1vw",
-                  ]}
-                  fontFamily="JosefinLight"
-                >
-                  (PRESENCIAL)
+                <Text textAlign={["center", "center", "center", "left"]} marginLeft="50px">
+                  <Box as="span"> Local do evento:   </Box>
+                  CONFIDENCIAL
                 </Text>
               </Text>
             </Box>

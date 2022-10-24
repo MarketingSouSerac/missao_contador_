@@ -34,85 +34,6 @@ export function Vagas() {
           paddingX={["5%", "5%", "5%", "15%"]}
         >
           <Stack
-            direction="column"
-            flex="2"
-            display="flex"
-            alignItems="center"
-            alignContent="center"
-            justifyContent="center"
-            justifyItems="center"
-            color="white"
-            fontSize="24px"
-            textAlign={["center", "center", "center", "left"]}
-          >
-            <Box
-              alignItems={["center", "center", "center", "baseline"]}
-              alignContent={["center", "center", "center", "baseline"]}
-              justifyContent={["center", "center", "center", "left"]}
-              justifyItems={["center", "center", "center", "left"]}
-              display={"flex"}
-              flexDirection="column"
-            >
-              <Image
-                alt="Jhonny"
-                src="assets/images/Lote1Esgotado.svg"
-                w={["180px"]}
-              />{" "}
-              <Image
-                mt="10px"
-                alt="Jhonny"
-                src="assets/images/Lote2Esgotado.svg"
-                w={["180px"]}
-              />{" "}
-              <Box
-                display={"flex"}
-                flexDirection="row"
-                lineHeight={"1.8rem"}
-                alignItems="center"
-                alignContent="center"
-                justifyContent="center"
-                justifyItems="center"
-              >
-                <Heading fontSize={["2.5rem", "2.5rem", "2.5rem", "4rem"]}>
-                  Lote - 3
-                </Heading>
-              </Box>
-              <Heading
-                fontSize={["2.5rem", "2.5rem", "2.5rem", "4rem"]}
-                lineHeight={"1.8rem"}
-              >
-                <br />
-                Vagas Encerradas!
-              </Heading>
-              <Text
-                lineHeight="25px"
-                w={["auto", "auto", "auto", "590px"]}
-                fontFamily="JosefinRegular"
-                pt={["5%", "5%", "5%", "7%"]}
-              >
-                Não perca a oportunidade de descobrir os segredos de uma das
-                maiores referências em contabilidade do país.
-              </Text>
-              <Text
-                lineHeight="30px"
-                w={["auto", "auto", "auto", "590px"]}
-                pt={["30px"]}
-              >
-                <Box as="span" fontFamily={"JosefinBold"}>
-                  {" "}
-                  Local do evento:
-                </Box>
-                <br />
-                Espaço APAS
-                <br />
-                R. Pio XI, 1200 - Alto da Lapa, São Paulo - SP
-                <br />
-                CEP: 05060-001
-              </Text>
-            </Box>
-          </Stack>
-
-          <Stack
             direction={["column", "column", "column"]}
             flex="1.5"
             display="flex"
@@ -145,6 +66,7 @@ export function Vagas() {
                 bg="#ed0a0a"
                 pt="3%"
                 borderRadius={"7px"}
+                marginRight="50px"
                 as="a"
                 href="#footer"
                 h={["80px", "100px"]}

@@ -372,61 +372,6 @@ export function OutrosAgentes() {
               as="img"
               w={["120px", "150px", "250px", "250px", "250px", "13vw"]}
               h={["120px", "150px", "250px", "250px", "250px", "13vw"]}
-              src="assets/images/VINICIUS.JPG"
-            />
-            <Text
-              fontFamily={"JosefinBold"}
-              color="white"
-              fontSize={[
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "2vw",
-              ]}
-            >
-              Vinicius Loprete
-            </Text>
-            <Text
-              color="white"
-              fontSize={[
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1.5rem",
-              ]}
-              textAlign="center"
-            >
-              Gerente Projetos e Qualidade
-            </Text>
-            <Text
-              color="white"
-              textAlign={"center"}
-              fontSize={["1rem", "1rem", "1.2rem", "1.2rem", "1.2rem", "1rem"]}
-            >
-              Graduado em Administração de Empresas pela Pontifícia Universidade
-              Católica de São Paulo (PUC-SP) e graduando em MBA de Business
-              Process pela Fundação Getúlio Vargas (FGV-SP).
-            </Text>
-          </Box>
-
-          <Box
-            m="10px"
-            display="flex"
-            flexDirection="column"
-            justifyItems="center"
-            justifyContent="center"
-            alignContent="center"
-            alignItems="center"
-          >
-            <Box
-              rounded="full"
-              as="img"
-              w={["120px", "150px", "250px", "250px", "250px", "13vw"]}
-              h={["120px", "150px", "250px", "250px", "250px", "13vw"]}
               src="assets/images/luiz.jpeg"
             />
             <Text
@@ -665,17 +610,13 @@ export function OutrosAgentes() {
               >
                 <Box
                   as="img"
-                  src="assets/images/agente5.png"
+                  src="assets/images/secret_agent.jpeg"
                   w={["100%", "100%", "150px", "150px", "150px", "14vw"]}
                 />
                 <Text fontFamily={"JosefinBold"} fontSize="25px" mt="5px">
-                  Robson Cavalcanti
+                AGENTE CONFIDENCIAL
                 </Text>
               </Box>
-              <Text fontSize="23px" lineHeight={"30px"} maxW="100%">
-                {" "}
-                CEO da WISECONT Contabilidade Inteligente
-              </Text>
             </Box>
           </Box>
           <Box
@@ -700,17 +641,13 @@ export function OutrosAgentes() {
               >
                 <Box
                   as="img"
-                  src="assets/images/agente6.jpg"
+                  src="assets/images/secret_agent.jpeg"
                   w={["100%", "100%", "150px", "150px", "150px", "17vw"]}
                 />
                 <Text fontFamily={"JosefinBold"} fontSize="25px" mt="5px">
-                  Lucas Correa
+                AGENTE CONFIDENCIAL
                 </Text>
               </Box>
-              <Text fontSize="23px" lineHeight={"30px"} maxW="100%">
-                {" "}
-                Sócio da RSM Brasil
-              </Text>
             </Box>
           </Box>
           <Box
@@ -735,17 +672,13 @@ export function OutrosAgentes() {
               >
                 <Box
                   as="img"
-                  src="assets/images/agente7.jpg"
+                  src="assets/images/secret_agent.jpeg"
                   w={["100%", "100%", "150px", "150px", "150px", "15vw"]}
                 />
                 <Text fontFamily={"JosefinBold"} fontSize="24px" mt="5px">
-                  Anderson Hernandes
+                AGENTE CONFIDENCIAL
                 </Text>
               </Box>
-              <Text fontSize="23px" lineHeight={"30px"} maxW="100%">
-                {" "}
-                Fundador e CEO da Tactus Contabilidade Digital
-              </Text>
             </Box>
           </Box>
 
@@ -771,17 +704,13 @@ export function OutrosAgentes() {
               >
                 <Box
                   as="img"
-                  src="assets/images/agente8.jpg"
+                  src="assets/images/secret_agent.jpeg"
                   w={["100%", "100%", "150px", "150px", "150px", "15vw"]}
                 />
                 <Text fontFamily={"JosefinBold"} fontSize="25px" mt="5px">
-                  Anderson Souza
+                AGENTE CONFIDENCIAL
                 </Text>
               </Box>
-              <Text fontSize="23px" lineHeight={"30px"} maxW="100%">
-                {" "}
-                Apresentador do programa Fecha Conta
-              </Text>
             </Box>
           </Box>
 
@@ -807,18 +736,13 @@ export function OutrosAgentes() {
               >
                 <Box
                   as="img"
-                  src="assets/images/agente9.jpg"
+                  src="assets/images/secret_agent.jpeg"
                   w={["100%", "100%", "150px", "150px", "150px", "13vw"]}
                 />
                 <Text fontFamily={"JosefinBold"} fontSize="25px" mt="5px">
-                  Whill Silva
+                AGENTE CONFIDENCIAL
                 </Text>
               </Box>
-              <Text fontSize="23px" lineHeight={"30px"} maxW="100%">
-                {" "}
-                CEO da TJ Company que engloba a rede de Joalherias e Ópticas
-                Tri-Jóia
-              </Text>
             </Box>
           </Box>
         </Carousel>
