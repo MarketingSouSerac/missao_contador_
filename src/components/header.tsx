@@ -171,7 +171,7 @@ export function Header() {
                   ]}
                   lineHeight={["40px", "40px", "40px", "40px", "35px", "2.2vw"]}
                 >
-                  19 e 20/05 <br /> São Paulo - SP
+                  19 e 20/05/2023 <br /> São Paulo - SP
                 </Text>
                 <Text textAlign={["center", "center", "center", "left"]} marginLeft="50px">
                   <Box as="span"> Local do evento:   </Box>
