@@ -8,7 +8,7 @@ import headerLinksStyle from "/styles/jss/nextjs-material-kit/components/headerL
 const navbarsStyle = (theme) => ({
   section: {
     padding: "70px 0",
-    paddingTop: "0",
+    paddingTop: "40px",
     background: "#211a19"
   },
   container,
@@ -19,7 +19,7 @@ const navbarsStyle = (theme) => ({
     textDecoration: "none"
   },
   navbar: {
-    marginBottom: "-20px",
+    marginBottom: "-10px",
     zIndex: "100",
     position: "relative",
     overflow: "hidden",

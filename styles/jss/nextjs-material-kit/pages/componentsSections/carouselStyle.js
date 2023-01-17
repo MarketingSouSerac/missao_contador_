@@ -12,7 +12,12 @@ const carouselStyle = {
   Card: {
     borderRadius: "32px"
   },
-  container,
+  video: {
+    paddingTop: "20px",
+    borderRadius: "20px",
+  },
+  container: {
+  },
   marginAuto: {
     marginLeft: "auto !important",
     marginRight: "auto !important"

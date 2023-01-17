@@ -18,7 +18,8 @@ const exampleStyle = {
   },
   card: {
     background: "linear-gradient(to top, #800000 0%, #211a19 100%)",
-    borderRadius: "27px"
+    borderRadius: "27px",
+    height: "570px"
   },
   ...imagesStyle,
   link: {

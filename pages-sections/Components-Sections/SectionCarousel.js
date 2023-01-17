@@ -28,56 +28,32 @@ export default function SectionCarousel() {
   return (
     <div className={classes.section}>
       <div className={classes.container}>
-        <Typography style={{textAlign: "center", paddingTop: "20px", fontWeight: "bold", color: "white"}}>
+        <Typography
+          style={{
+            textAlign: "center",
+            paddingTop: "20px",
+            fontWeight: "bold",
+            color: "white",
+          }}
+        >
           “O caminho do sucesso não tem fórmulas, mas ele deixa pistas. Modele
           as pessoas de sucesso para chegar mais rápido onde você gostaria de
           chegar”
         </Typography>
         <GridContainer>
           <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
-            <Card className={classes.Card} carousel>
-              <Carousel {...settings}>
-                <div>
-                  <img
-                    src="/img/JHONNY 7.png"
-                    alt="First slide"
-                    className="slick-image"
-                  />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      Missão Contador 2022
-                    </h4>
-                  </div>
-                </div>
-                <div>
-                  <img
-                    src="/img/JHONNY FOTO 6.png"
-                    alt="Second slide"
-                    className="slick-image"
-                  />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      Missão Contador 2022
-                    </h4>
-                  </div>
-                </div>
-                <div>
-                  <img
-                    src="/img/jhonny.png"
-                    alt="Third slide"
-                    className="slick-image"
-                  />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      Missão Contador 2022
-                    </h4>
-                  </div>
-                </div>
-              </Carousel>
-            </Card>
+            <center>
+            <iframe
+              className={classes.video}
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/3CHci1sai_I"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            </center>
           </GridItem>
         </GridContainer>
       </div>
