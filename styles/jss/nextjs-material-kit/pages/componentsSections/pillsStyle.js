@@ -10,16 +10,14 @@ const pillsStyle = {
     padding: "0"
   },
   container: {
-    background: "#211a19",
-    display: "block",
-    width: "100%",
-    position: "relative",
-    padding: "0"
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center"
   },
   img: {
     paddingTop: "50px",
-    width: "80%",
-    marginLeft: "40px"
+    width: "70%",
+    
   },
   title: {
     ...title,

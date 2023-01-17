@@ -20,7 +20,7 @@ export default function SectionPills() {
   const classes = useStyles();
   return (
     <div className={classes.section}>
-      <div style={{marginRight: "40px"}} className={classes.container}>
+      <div className={classes.container}>
         <img className={classes.img} src="/img/BIG-NUMBERS.png"/>
       </div>
     </div>
