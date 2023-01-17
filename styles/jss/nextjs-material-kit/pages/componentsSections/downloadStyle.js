@@ -26,7 +26,7 @@ const downloadStyle = {
   icons: {
     height: "400px",
     width: "70px",
-    paddingLeft: "20px",
+    marginLeft: "20px",
     color: "white"
   },
   Button: {

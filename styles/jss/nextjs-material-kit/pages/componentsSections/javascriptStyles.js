@@ -19,7 +19,6 @@ const javascriptStyles = {
   icons: {
     width: "82px",
     height: "82px",
-    padding: "10px",
     marginTop: "7px",
     color: "red"
   },
