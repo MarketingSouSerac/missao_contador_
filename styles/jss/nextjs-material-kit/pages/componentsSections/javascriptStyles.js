@@ -7,7 +7,10 @@ import popoverStyles from "/styles/jss/nextjs-material-kit/popoverStyles.js";
 const javascriptStyles = {
   section: {
     padding: "70px 0 0",
-    background: "#211a19"
+    backgroundImage: "url('/img/JHONNY 7.png')",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "100% 100%",
+    height: "750px"
   },
   container,
   title: {
@@ -19,7 +22,7 @@ const javascriptStyles = {
   icons: {
     width: "82px",
     height: "82px",
-    marginTop: "7px",
+    paddingTop: "6px",
     color: "red"
   },
   ...modalStyle,

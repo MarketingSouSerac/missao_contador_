@@ -33,7 +33,7 @@ export default function SectionNavbars() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={6}>
             <div className={classes.img}>
-              <img height="500px" src="/img/00j.png" />
+              <img height="500px" src="/img/jhonny_agente2.png" />
             </div>
           </GridItem>
           <GridItem xs={12} sm={12} md={6}>

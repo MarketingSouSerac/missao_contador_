@@ -51,9 +51,9 @@ export default function SectionJhonny() {
               <Typography style={{ color: "white", marginLeft: "30px" }}>
                 <strong>
                   Jhonny Martins é hoje um dos contadores mais influentes do
-                  país que consquitstou clientes renomados e grandes
+                  país que conquitstou clientes renomados e grandes
                   personalidades. É responsável por estruturar empresas de todos
-                  os segmentos e tamanos, podendo ensinar o caminho certo para o
+                  os segmentos e tamanhos, podendo ensinar o caminho certo para o
                   seu negócio com conceitos e ferramentas inovadoras com uma
                   visão ampla e estratégia de mercado.
                 </strong>
