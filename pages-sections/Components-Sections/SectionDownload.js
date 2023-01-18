@@ -3,6 +3,7 @@ import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 import PixIcon from "@mui/icons-material/Pix";
+import CreditCardIcon from "@mui/icons-material/CreditCard";
 
 import {
   Typography,
@@ -27,14 +28,24 @@ const useStyles = makeStyles(styles);
 const styleModal = {
   position: "absolute",
   top: "50%",
+  flexDirection: "column",
   left: "50%",
   transform: "translate(-50%, -50%)",
   width: 400,
   bgcolor: "background.paper",
   border: "2px solid #000",
   boxShadow: 24,
+  borderRadius: "20px",
   p: 4,
 };
+
+const pix = () => {
+  window.location = "https://link.pagar.me/lSynZAA2Fs";
+}
+
+const CreditCard = () => {
+  window.location = "https://link.pagar.me/lB19tTR2Kj"
+}
 
 export default function SectionDownload() {
   const [open, setOpen] = React.useState(false);
@@ -182,22 +193,48 @@ export default function SectionDownload() {
             aria-describedby="modal-modal-description"
           >
             <Box sx={styleModal}>
-              <GridItem xs={12} sm={12} md={4}>
-                <Card
-                  variant="elevation"
-                  sx={{ maxWidth: 345 }}
-                >
-                  <CardMedia>
-                    <center>
-                      <PixIcon fontSize="large"/>
-                    </center>
-                  </CardMedia>
+              <Typography style={{textAlign: "center", paddingBottom: "20px"}}>
+                ESCOLHA O MÉTODO DE PAGAMENTO
+              </Typography>
+              <GridContainer>
+                <GridItem xs={12} sm={12} md={6}>
+                  <Card
 
-                  <CardContent>
-                    
-                  </CardContent>
-                </Card>
-              </GridItem>
+                    onClick={pix}
+                    style={{ height: "175px", cursor: "pointer" }}
+                    variant="elevation"
+                    sx={{ maxWidth: 345 }}
+                  >
+                    <CardMedia>
+                      <center>
+                        <PixIcon fontSize="large" />
+                      </center>
+                    </CardMedia>
+
+                    <CardContent>
+                      <Typography style={{ textAlign: "center" }}>
+                        Efetuar o pagamento com PIX
+                      </Typography>
+                    </CardContent>
+                  </Card>
+                </GridItem>
+                <GridItem xs={12} sm={12} md={6}>
+                  <Card onClick={CreditCard} style={{cursor: "pointer"}} variant="elevation" sx={{ maxWidth: 345 }}>
+                    <CardMedia>
+                      <center>
+                        <CreditCardIcon fontSize="large" />
+                      </center>
+                    </CardMedia>
+
+                    <CardContent>
+                      <Typography style={{ textAlign: "center" }}>
+                        Efetuar o pagamento com Cartão de Crédito
+                      </Typography>
+                    </CardContent>
+                  </Card>
+                  
+                </GridItem>
+              </GridContainer>
             </Box>
           </Modal>
         </div>
