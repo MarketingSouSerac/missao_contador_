@@ -28,18 +28,7 @@ export default function SectionCarousel() {
   return (
     <div className={classes.section}>
       <div className={classes.container}>
-        <Typography
-          style={{
-            textAlign: "center",
-            paddingTop: "20px",
-            fontWeight: "bold",
-            color: "white",
-          }}
-        >
-          “O caminho do sucesso não tem fórmulas, mas ele deixa pistas. Modele
-          as pessoas de sucesso para chegar mais rápido onde você gostaria de
-          chegar”
-        </Typography>
+        
         <GridContainer>
           <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
             <center>

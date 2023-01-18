@@ -2,8 +2,17 @@
 import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
+import PixIcon from "@mui/icons-material/Pix";
 
-import { Typography, Card, CardContent, Button } from "@material-ui/core";
+import {
+  Typography,
+  Card,
+  CardContent,
+  Button,
+  CardMedia,
+  Modal,
+  Box,
+} from "@material-ui/core";
 import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
 
 // @material-ui/icons
@@ -15,7 +24,22 @@ import styles from "/styles/jss/nextjs-material-kit/pages/componentsSections/dow
 
 const useStyles = makeStyles(styles);
 
+const styleModal = {
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
+  width: 400,
+  bgcolor: "background.paper",
+  border: "2px solid #000",
+  boxShadow: 24,
+  p: 4,
+};
+
 export default function SectionDownload() {
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
   const classes = useStyles();
   return (
     <div className={classes.section}>
@@ -24,7 +48,7 @@ export default function SectionDownload() {
           color: "white",
           fontSize: "32px",
           textAlign: "center",
-          paddingBottom: "20px"
+          paddingBottom: "20px",
         }}
       >
         FAÇA SUA INSCRIÇÃO AGORA
@@ -32,7 +56,13 @@ export default function SectionDownload() {
       <div className={classes.container}>
         <GridContainer spacing={5}>
           <GridItem xs={12} sm={12} md={4}>
-            <Card style={{backgroundColor: "transparent", borderRadius: "27px", border: "3px solid"}}>
+            <Card
+              style={{
+                backgroundColor: "transparent",
+                borderRadius: "27px",
+                border: "3px solid #FFD700",
+              }}
+            >
               <CardContent>
                 <Typography
                   style={{
@@ -68,7 +98,7 @@ export default function SectionDownload() {
                   <p></p>
                   <p></p>
                   <CheckCircleIcon fontSize="small" className={classes.icon} />
-                  Happy Hour Open Bar
+                  Happy Hour
                 </Typography>
               </CardContent>
             </Card>
@@ -81,6 +111,13 @@ export default function SectionDownload() {
               sx={{ maxWidth: 345 }}
             >
               <CardContent>
+                <CardMedia
+                  style={{ borderRadius: "20px" }}
+                  component="img"
+                  alt="green iguana"
+                  height="200"
+                  image="/img/FOTO-FUNDO-MISSAO (1).jpg"
+                />
                 <Typography
                   style={{
                     color: "white",
@@ -95,12 +132,19 @@ export default function SectionDownload() {
                   </Typography>{" "}
                   <br />
                   <p></p>
+                  <CheckCircleIcon
+                    fontSize="small"
+                    className={classes.icon}
+                  />{" "}
                   Pagamento 100% seguro <br />
                   <p></p>
+                  <CheckCircleIcon fontSize="small" className={classes.icon} />
                   Parcelamento em até 10x <br />
                   <p></p>
+                  <CheckCircleIcon fontSize="small" className={classes.icon} />
                   Desconto no pix <br />
                   <p></p>
+                  <hr />
                   <strong>
                     Você vai levar tudo isso por apenas R$ 1.197,00 ou em até
                     10x de
@@ -120,6 +164,7 @@ export default function SectionDownload() {
           }}
         >
           <Button
+            onClick={handleOpen}
             startIcon={
               <LocalFireDepartmentIcon
                 className={classes.icons}
@@ -130,6 +175,31 @@ export default function SectionDownload() {
           >
             FAZER MINHA INSCRIÇÃO
           </Button>
+          <Modal
+            open={open}
+            onClose={handleClose}
+            aria-labelledby="modal-modal-title"
+            aria-describedby="modal-modal-description"
+          >
+            <Box sx={styleModal}>
+              <GridItem xs={12} sm={12} md={4}>
+                <Card
+                  variant="elevation"
+                  sx={{ maxWidth: 345 }}
+                >
+                  <CardMedia>
+                    <center>
+                      <PixIcon fontSize="large"/>
+                    </center>
+                  </CardMedia>
+
+                  <CardContent>
+                    
+                  </CardContent>
+                </Card>
+              </GridItem>
+            </Box>
+          </Modal>
         </div>
       </div>
     </div>

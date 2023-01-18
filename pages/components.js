@@ -30,6 +30,7 @@ import SectionDownload from "/pages-sections/Components-Sections/SectionDownload
 
 import styles from "/styles/jss/nextjs-material-kit/pages/components.js";
 import SectionJhonny from "../pages-sections/Components-Sections/SectionCompletedExamples";
+import { Typography } from "@material-ui/core";
 
 const useStyles = makeStyles(styles);
 
@@ -38,10 +39,13 @@ export default function Components(props) {
   const { ...rest } = props;
   return (
     <div>
-      <Parallax image="/img/nextjs_header.jpg">
+      <div className={classes.sections} >
         <div className={classes.container}>
           <GridContainer>
-            <GridItem>
+            <GridItem xs={12} sm={12} md={6}>
+              <img className={classes.imgJhonny} width="400px" height="600px" src="/img/00J.png"/>
+            </GridItem>
+            <GridItem style={{marginBottom: "30px"}} xs={12} sm={12} md={6}>
               <div className={classes.brand}>
                 <img
                   className={classes.img}
@@ -49,10 +53,21 @@ export default function Components(props) {
                   src="/img/profile-bg.png"
                 ></img>
               </div>
+              <Typography style={{textAlign: "center", color: "white"}}>
+                VENHA TRANSFORMAR A GESTÃO DO SEU NEGÓCIO AO LADO DE UM DOS
+                CONTADORES MAIS INFLUENTES DO PAÍS E GRANDES EMPREENDEDORES DE
+                SUCESSO
+              </Typography>
+              <p></p>
+              <Typography style={{textAlign: "center", color: "white"}}>
+                APRENDA COMO AUMENTAR O SEU FATURAMENTO, INVESTIR EM MARKETING
+                DIGITAL, FAZER A MELHOR GESTÃO DE PESSOAS E PROCESSOS E AINDA
+                INOVAR COM A TECNOLOGIA
+              </Typography>
             </GridItem>
           </GridContainer>
         </div>
-      </Parallax>
+      </div>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <SectionJhonny />
@@ -62,7 +77,7 @@ export default function Components(props) {
         <SectionNotifications />
         <SectionJavascript />
         <SectionCarousel />
-        <SectionPills/>
+        <SectionPills />
         <SectionExamples />
         <SectionDownload />
       </div>

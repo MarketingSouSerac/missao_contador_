@@ -15,6 +15,7 @@ const carouselStyle = {
   video: {
     paddingTop: "20px",
     borderRadius: "20px",
+    width: "70%"
   },
   container: {
   },

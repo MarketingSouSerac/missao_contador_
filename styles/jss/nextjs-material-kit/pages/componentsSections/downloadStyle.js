@@ -12,7 +12,7 @@ const downloadStyle = {
     textAlign: "center"
   },
   icon: {
-    color: "#1FFF00",
+    color: "#FFD700",
     paddingTop: "2px"
   },
   sharingArea: {
@@ -21,7 +21,7 @@ const downloadStyle = {
   card: {
     background: "linear-gradient(to top, #800000 0%, #211a19 100%)",
     borderRadius: "27px",
-    height: "460px",
+    height: "650px",
   },
   icons: {
     height: "400px",
@@ -30,21 +30,21 @@ const downloadStyle = {
     color: "white"
   },
   Button: {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    height: "120px",
+    marginLeft: "830px",
+    positio: "fixed",
+    height: "100px",
     borderRadius: "17px",
     fontSize: "22px",
-    width: "300px",
+    width: "280px",
     background: "#800000",
     color: "white",
   },
   price: {
-    fontSize: "46px",
+    fontSize: "55px",
     fontWeight: "bold",
     paddingTop: "50px",
     textAlign: "center",
+    color: "#FFD700"
   },
   socials: {
     maxWidth: "24px",

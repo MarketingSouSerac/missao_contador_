@@ -2,6 +2,10 @@ import { container } from "/styles/jss/nextjs-material-kit.js";
 
 const componentsStyle = {
   container,
+  sections: {
+    padding: "70px 0",
+    background: "#211a19"
+  },
   brand: {
     display: "flex",
     justifyContent: "center",
@@ -26,9 +30,11 @@ const componentsStyle = {
     marginTop:"60px",
     marginRight: "8px",
     display: "flex",
-    height: "50%",
     justifyContent: "center",
     textAlign: "center"
+  },
+  imgJhonny: {
+    paddingLeft: "20px"
   },
   mainRaised: {
     margin: "-30px 30px 0px",

@@ -6,11 +6,14 @@ import popoverStyles from "/styles/jss/nextjs-material-kit/popoverStyles.js";
 
 const javascriptStyles = {
   section: {
-    padding: "70px 0 0",
+    padding: "70px 0",
+    paddingTop: "100px",
     backgroundImage: "url('/img/JHONNY 7.png')",
     backgroundRepeat: "no-repeat",
     backgroundSize: "100% 100%",
-    height: "750px"
+    height: `@media and screen(max-width: 800) {
+      height: '400px'
+    }`
   },
   container,
   title: {

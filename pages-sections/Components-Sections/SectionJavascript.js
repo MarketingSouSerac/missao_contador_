@@ -29,10 +29,13 @@ export default function SectionJavascript() {
   return (
     <div className={classes.section}>
       <div className={classes.container}>
-        <Typography style={{ color: "white", paddingBottom: "30px" }} className={classes.title}>
+        <Typography
+          style={{ color: "white", paddingBottom: "30px" }}
+          className={classes.title}
+        >
           O MISSÃO CONTADOR FOI PENSADO PARA QUEM:
         </Typography>
-        <GridContainer spacing={2}>
+        <GridContainer spacing={3}>
           <GridItem xs={12} sm={12} md={4}>
             <Card
               className={classes.card}
@@ -202,6 +205,19 @@ export default function SectionJavascript() {
             </Card>
           </GridItem>
         </GridContainer>
+        <Typography
+          style={{
+            textAlign: "center",
+            paddingTop: "20px",
+            fontWeight: "bold",
+            color: "white",
+            paddingTop: "50px"
+          }}
+        >
+          “O caminho do sucesso não tem fórmulas, mas ele deixa pistas. Modele
+          as pessoas de sucesso para chegar mais rápido onde você gostaria de
+          chegar”
+        </Typography>
       </div>
     </div>
   );
