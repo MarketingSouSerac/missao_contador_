@@ -2,7 +2,7 @@ import { container } from "/styles/jss/nextjs-material-kit.js";
 
 const downloadStyle = {
   section: {
-    padding: "70px 0",
+    paddingTop: "70px",
     backgroundImage: "url('/img/BACK-3.jpg')",
     backGroundSize: "100% 100%",
     backgroundRepeat: "no-repeat",

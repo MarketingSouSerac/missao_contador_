@@ -13,23 +13,7 @@ const basicsStyle = {
     minHeight: "32px",
     textDecoration: "none",
   },
-  icon: {
-    height: "400px",
-    width: "70px",
-    marginLeft: "20px",
-    color: "white",
-  },
-  Button: {
-    marginLeft: `@media and screen (max-width: 800px){
-      marginLeft: '500px'
-    }`,
-    height: "80px",
-    borderRadius: "17px",
-    fontSize: "22px",
-    width: "280px",
-    background: "#800000",
-    color: "white",
-  },
+  
   space50: {
     height: "50px",
     display: "block",

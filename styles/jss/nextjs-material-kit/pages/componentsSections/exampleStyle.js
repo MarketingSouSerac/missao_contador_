@@ -4,8 +4,9 @@ import imagesStyle from "/styles/jss/nextjs-material-kit/imagesStyles.js";
 
 const exampleStyle = {
   section: {
-    padding: "70px 0px",
-    background: "#211a19"
+    paddingTop: "70px",
+    background: "black",
+    backgroundSize: "100% 100%"
   },
   container: {
     ...containerFluid,

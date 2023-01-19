@@ -6,27 +6,6 @@ import Link from "next/link";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-import PixIcon from "@mui/icons-material/Pix";
-import CreditCardIcon from "@mui/icons-material/CreditCard";
-
-import {
-  Typography,
-  Card,
-  CardContent,
-  Button,
-  CardMedia,
-  Modal,
-  Box,
-} from "@material-ui/core";
-import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
-// @material-ui/icons
-// core components
-import Header from "/components/Header/Header.js";
-import HeaderLinks from "/components/Header/HeaderLinks.js";
-import Footer from "/components/Footer/Footer.js";
-import GridContainer from "/components/Grid/GridContainer.js";
-import GridItem from "/components/Grid/GridItem.js";
-import Parallax from "/components/Parallax/Parallax.js";
 // sections for this page
 import SectionBasics from "/pages-sections/Components-Sections/SectionBasics.js";
 import SectionNavbars from "/pages-sections/Components-Sections/SectionNavbars.js";

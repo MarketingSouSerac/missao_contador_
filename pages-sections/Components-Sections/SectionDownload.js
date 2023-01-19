@@ -148,10 +148,10 @@ export default function SectionDownload() {
                   />{" "}
                   Pagamento 100% seguro <br />
                   <p></p>
-                  <CheckCircleIcon fontSize="small" className={classes.icon} />
+                  <CheckCircleIcon fontSize="small" className={classes.icon} /> {" "}
                   Parcelamento em até 10x <br />
                   <p></p>
-                  <CheckCircleIcon fontSize="small" className={classes.icon} />
+                  <CheckCircleIcon fontSize="small" className={classes.icon} /> {" "}
                   Desconto no pix <br />
                   <p></p>
                   <hr />

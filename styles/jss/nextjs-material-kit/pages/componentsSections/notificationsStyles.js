@@ -10,7 +10,7 @@ const notificationsStyles = {
     minHeight: "300px",
     width: "100%",
     position: "relative",
-    paddingTop: "0px",
+    paddingTop: "20px",
   },
   title: {
     ...title,

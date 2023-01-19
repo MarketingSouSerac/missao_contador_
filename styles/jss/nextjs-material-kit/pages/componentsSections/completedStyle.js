@@ -2,7 +2,7 @@ import { container } from "/styles/jss/nextjs-material-kit.js";
 
 const completedStyle = {
   section: {
-    padding: "70px 0",
+    paddingTop: "70px",
     backgroundSize: "cover",
     height: "700px"
   },
