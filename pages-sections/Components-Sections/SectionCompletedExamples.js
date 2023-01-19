@@ -39,7 +39,7 @@ export default function SectionJhonny() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={6}>
             <div className={classes.title}>
-              <h3 style={{ color: "white", textAlign: "center" }}>
+              <h3 style={{ color: "white", textAlign: "center"}}>
                 <strong>
                   SEU MENTOR: QUEM É E POR QUAL MOTIVO APRENDER COM JHONNY
                   MARTINS
@@ -48,7 +48,7 @@ export default function SectionJhonny() {
             </div>
 
             <div>
-              <Typography style={{ color: "white", marginLeft: "30px" }}>
+              <Typography style={{ color: "white", marginLeft: "10px", paddingBottom: "40px" }}>
                 <strong>
                   Jhonny Martins é hoje um dos contadores mais influentes do
                   país que conquitstou clientes renomados e grandes

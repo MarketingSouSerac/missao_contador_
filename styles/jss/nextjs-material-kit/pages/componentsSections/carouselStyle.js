@@ -10,19 +10,32 @@ const carouselStyle = {
     padding: "0",
   },
   Card: {
-    borderRadius: "32px"
+    borderRadius: "32px",
+  },
+  img: {
+    width: "100%",
+    marginRight: `@media and screen(min-width: 800){
+      marginRight: '90px'
+    }`,
+  },
+  imgJhonny: {
+    width: `@media and screen(max-width: 800px){
+      width: '200px',
+    }`,
+    marginLeft: `@media and screen(min-width: 800px){
+      marginLeft: '60px'
+    }`,
   },
   video: {
     paddingTop: "20px",
     borderRadius: "20px",
-    width: "70%"
+    width: "70%",
   },
-  container: {
-  },
+  container: {},
   marginAuto: {
     marginLeft: "auto !important",
-    marginRight: "auto !important"
-  }
+    marginRight: "auto !important",
+  },
 };
 
 export default carouselStyle;

@@ -28,7 +28,6 @@ const useStyles = makeStyles(styles);
 const styleModal = {
   position: "absolute",
   top: "50%",
-  flexDirection: "column",
   left: "50%",
   transform: "translate(-50%, -50%)",
   width: 400,
@@ -161,7 +160,7 @@ export default function SectionDownload() {
                     10x de
                   </strong>{" "}
                   <br />
-                  <Typography className={classes.price}> R$ 109,70 </Typography>
+                  <Typography className={classes.price}> R$ 119,70 </Typography>
                 </Typography>
               </CardContent>
             </Card>

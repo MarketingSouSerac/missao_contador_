@@ -5,6 +5,20 @@ import classNames from "classnames";
 import Link from "next/link";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
+
+import PixIcon from "@mui/icons-material/Pix";
+import CreditCardIcon from "@mui/icons-material/CreditCard";
+
+import {
+  Typography,
+  Card,
+  CardContent,
+  Button,
+  CardMedia,
+  Modal,
+  Box,
+} from "@material-ui/core";
+import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
 // @material-ui/icons
 // core components
 import Header from "/components/Header/Header.js";
@@ -12,7 +26,6 @@ import HeaderLinks from "/components/Header/HeaderLinks.js";
 import Footer from "/components/Footer/Footer.js";
 import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
-import Button from "/components/CustomButtons/Button.js";
 import Parallax from "/components/Parallax/Parallax.js";
 // sections for this page
 import SectionBasics from "/pages-sections/Components-Sections/SectionBasics.js";
@@ -30,53 +43,37 @@ import SectionDownload from "/pages-sections/Components-Sections/SectionDownload
 
 import styles from "/styles/jss/nextjs-material-kit/pages/components.js";
 import SectionJhonny from "../pages-sections/Components-Sections/SectionCompletedExamples";
-import { Typography } from "@material-ui/core";
 
 const useStyles = makeStyles(styles);
 
+
+
 export default function Components(props) {
+  
   const classes = useStyles();
   const { ...rest } = props;
   return (
     <div>
-      <div className={classes.sections} >
+      <div className={classes.sections}>
         <div className={classes.container}>
-          <GridContainer>
-            <GridItem xs={12} sm={12} md={6}>
-              <img className={classes.imgJhonny} width="400px" height="600px" src="/img/00J.png"/>
-            </GridItem>
-            <GridItem style={{marginBottom: "30px"}} xs={12} sm={12} md={6}>
-              <div className={classes.brand}>
-                <img
-                  className={classes.img}
-                  width="600px"
-                  src="/img/profile-bg.png"
-                ></img>
-              </div>
-              <Typography style={{textAlign: "center", color: "white"}}>
-                VENHA TRANSFORMAR A GESTÃO DO SEU NEGÓCIO AO LADO DE UM DOS
-                CONTADORES MAIS INFLUENTES DO PAÍS E GRANDES EMPREENDEDORES DE
-                SUCESSO
-              </Typography>
-              <p></p>
-              <Typography style={{textAlign: "center", color: "white"}}>
-                APRENDA COMO AUMENTAR O SEU FATURAMENTO, INVESTIR EM MARKETING
-                DIGITAL, FAZER A MELHOR GESTÃO DE PESSOAS E PROCESSOS E AINDA
-                INOVAR COM A TECNOLOGIA
-              </Typography>
-            </GridItem>
-          </GridContainer>
+          <iframe
+            className={classes.video}
+            src="https://www.youtube.com/embed/3CHci1sai_I"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay ; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          ></iframe>
+          
         </div>
       </div>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
+        <SectionCarousel />
         <SectionJhonny />
         <SectionBasics />
         <SectionTabs />
-        <SectionNavbars />
         <SectionNotifications />
         <SectionJavascript />
-        <SectionCarousel />
         <SectionPills />
         <SectionExamples />
         <SectionDownload />

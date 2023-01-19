@@ -30,8 +30,9 @@ const downloadStyle = {
     color: "white"
   },
   Button: {
-    marginLeft: "830px",
-    positio: "fixed",
+    marginLeft: `@media and screen (max-width: 800px){
+      marginLeft: '500px'
+    }`,
     height: "100px",
     borderRadius: "17px",
     fontSize: "22px",

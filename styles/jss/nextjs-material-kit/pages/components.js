@@ -1,15 +1,35 @@
+
+import { width } from "@mui/system";
 import { container } from "/styles/jss/nextjs-material-kit.js";
 
 const componentsStyle = {
   container,
   sections: {
     padding: "70px 0",
-    background: "#211a19"
+    backgroundImage: "url('/img/BACK1-.jpg')",
+    width: "100%"
   },
   brand: {
     display: "flex",
     justifyContent: "center",
     textAlign: "center"
+  },
+  icons: {
+    height: "400px",
+    width: "70px",
+    marginLeft: "20px",
+    color: "white"
+  },
+  Button: {
+    marginLeft: `@media and screen (max-width: 800px){
+      marginLeft: '500px'
+    }`,
+    height: "100px",
+    borderRadius: "17px",
+    fontSize: "22px",
+    width: "280px",
+    background: "#800000",
+    color: "white",
   },
   title: {
     fontSize: "4.2rem",
@@ -33,8 +53,9 @@ const componentsStyle = {
     justifyContent: "center",
     textAlign: "center"
   },
-  imgJhonny: {
-    paddingLeft: "20px"
+  video: {
+    width: "100%",
+    height: "500px"
   },
   mainRaised: {
     margin: "-30px 30px 0px",

@@ -28,21 +28,43 @@ export default function SectionCarousel() {
   return (
     <div className={classes.section}>
       <div className={classes.container}>
-        
         <GridContainer>
-          <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
-            <center>
-            <iframe
-              className={classes.video}
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/3CHci1sai_I"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-            </center>
+          <GridItem xs={12} sm={12} md={6}>
+            <div style={{marginLeft: "20px"}} className={classes.imgJhonny}>
+              <img height="600px" src="/img/00J.png" />
+            </div>
+          </GridItem>
+          <GridItem style={{ marginBottom: "30px" }} xs={12} sm={12} md={6}>
+            <div style={{ marginRight: "40px" }} className={classes.brand}>
+              <img
+                className={classes.img}
+                width="600px"
+                src="/img/profile-bg.png"
+              ></img>
+            </div>
+            <Typography
+              style={{
+                textAlign: "center",
+                color: "white",
+                paddingRight: "20px"
+              }}
+            >
+              VENHA TRANSFORMAR A GESTÃO DO SEU NEGÓCIO AO LADO DE UM DOS
+              CONTADORES MAIS INFLUENTES DO PAÍS E GRANDES EMPREENDEDORES DE
+              SUCESSO
+            </Typography>
+            <p></p>
+            <Typography
+              style={{
+                textAlign: "center",
+                color: "white",
+                paddingRight: "20px",
+              }}
+            >
+              APRENDA COMO AUMENTAR O SEU FATURAMENTO, INVESTIR EM MARKETING
+              DIGITAL, FAZER A MELHOR GESTÃO DE PESSOAS E PROCESSOS E AINDA
+              INOVAR COM A TECNOLOGIA
+            </Typography>
           </GridItem>
         </GridContainer>
       </div>

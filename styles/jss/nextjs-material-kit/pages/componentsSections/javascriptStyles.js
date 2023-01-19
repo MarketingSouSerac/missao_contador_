@@ -28,6 +28,23 @@ const javascriptStyles = {
     paddingTop: "6px",
     color: "red"
   },
+  icon: {
+    height: "400px",
+    width: "70px",
+    marginLeft: "20px",
+    color: "white"
+  },
+  Button: {
+    marginLeft: `@media and screen (max-width: 800px){
+      marginLeft: '500px'
+    }`,
+    height: "100px",
+    borderRadius: "17px",
+    fontSize: "22px",
+    width: "280px",
+    background: "#800000",
+    color: "white",
+  },
   ...modalStyle,
   label: {
     color: "rgba(0, 0, 0, 0.26)",
