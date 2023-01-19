@@ -25,15 +25,12 @@ import SectionJhonny from "../pages-sections/Components-Sections/SectionComplete
 
 const useStyles = makeStyles(styles);
 
-
-
 export default function Components(props) {
-  
   const classes = useStyles();
   const { ...rest } = props;
   return (
-    <div>
-      <div className={classes.sections}>
+    <div style={{background: "#242424"}}>
+      <div  className={classes.sections}>
         <div className={classes.container}>
           <iframe
             className={classes.video}
@@ -42,7 +39,6 @@ export default function Components(props) {
             frameBorder="0"
             allow="accelerometer; autoplay ; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           ></iframe>
-          
         </div>
       </div>
 

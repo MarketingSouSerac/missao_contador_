@@ -44,7 +44,8 @@ const componentsStyle = {
   },
   main: {
     position: "relative",
-    zIndex: "3"
+    zIndex: "3",
+    background: "#242424"
   },
   img: {
     marginTop:"60px",
