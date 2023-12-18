@@ -152,5 +152,5 @@ Header.propTypes = {
       "rose",
       "dark"
     ]).isRequired
-  })
+  }) 
 };
